@@ -308,7 +308,7 @@ widgetsnbextension==3.5.1
 win-inet-pton==1.1.0
 win-unicode-console==0.5
 wincertstore==0.2
-wrapt=1.13.1
+wrapt==1.13.1
 xlrd==2.0.1
 XlsxWriter==3.0.3
 xlwings==0.24.9
