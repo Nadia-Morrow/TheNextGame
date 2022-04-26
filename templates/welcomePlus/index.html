@@ -1,0 +1,168 @@
+<!--HTML
+    Software Enginering
+    Written By: Adekunbi Bello and Nadia Morrow
+    Date Last Updated: 24-04-2024
+    This program creates the home page of the web application and connects to the api login page, manual login page and ratings explanation page.-->
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <!--====== Title ======-->
+  <title>TheNextGame</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=2">
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon"  type="image\png">
+
+  <!--====== Slick CSS ======-->
+  <link rel="stylesheet" href="\static\assets\css\slick.css">
+
+  <!--====== Font Awesome CSS ======-->
+  <link rel="stylesheet" href="\static\assets\css\font-awesome.min.css">
+
+  <!--====== Line Icons CSS ======-->
+  <link rel="stylesheet" href="\static\assets\css\LineIcons.css">
+
+  <!--====== Animate CSS ======-->
+  <link rel="stylesheet" href="\static\assets\css\animate.css">
+
+  <!--====== Magnific Popup CSS ======-->
+  <link rel="stylesheet" href="\static\assets\css\magnific-popup.css">
+
+  <!--====== Bootstrap CSS ======-->
+  <link rel="stylesheet" href="\static\assets\css\bootstrap.min.css">
+
+  <!--====== Default CSS ======-->
+  <link rel="stylesheet" href="\static\assets\css\default.css">
+
+  <!--====== Style CSS ======-->
+  <link rel="stylesheet" href="\static\assets\css\style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+
+<!--====== PRELOADER PART START ======-->
+
+<div class="preloader">
+  <div class="loader">
+    <div class="ytp-spinner">
+      <div class="ytp-spinner-container">
+        <div class="ytp-spinner-rotator">
+          <div class="ytp-spinner-left">
+            <div class="ytp-spinner-circle"></div>
+          </div>
+          <div class="ytp-spinner-right">
+            <div class="ytp-spinner-circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--====== PRELOADER PART ENDS ======-->
+
+<!--====== HEADER PART START ======-->
+
+<header class="header-area">
+
+
+  <div id="home" class="header-hero bg_cover d-lg-flex align-items-center" style="background-image: url(static\\assets\\images\\game-bg.jpg); height: g100vh!important;">
+    <div class="container">
+      <div class="container-fluid p-3">
+        <div class="row">
+          <div class="col-lg-12 text-center m-auto ">
+            <div class="header-hero-content text-white text-center">
+              <h1 class="hero-title text-white  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"><b>TheNextGame</b></h1>
+              <p class="text wow fadeInUp text-white m-auto" data-wow-duration="1s" data-wow-delay="0.5s" style="font-size: 20px">
+                This website recommends a new game to play from the Steam game collection. We guarentee quality by training our algorithm on games that have high ratings and creating another rating within the algorithm to further ensure quality.<br><br>
+                To understand more about the ratings, click the ratings button. <br>To get a rating, either connect your Steam account or manually choose a game from our collection.<br><br>
+                <div class="d-inline-flex">
+                 <button class="main-btn"><a href=apiLogin class="text-white">Steam Account Login</a></button>
+                </div>
+               <div class="d-inline-flex">
+                 <button class="main-btn"><a href=manualLogin class="text-white">Manual Input</a></button>
+               </div>
+                <div class="d-inline-flex">
+                 <button class="main-btn"><a href=ratings class="text-white">Ratings Explanation</a></button>
+               </div>
+              </p>
+            </div> <!-- header hero content -->
+          </div>
+        </div> <!-- row -->
+      </div>
+    </div> <!-- container -->
+
+    <!-- header hero image -->
+  </div> <!-- header hero -->
+</header>
+
+<!--====== HEADER PART ENDS ======-->
+
+<!--====== ABOUT PART START ======-->
+
+
+<a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+<!--====== BACK TOP TOP PART ENDS ======-->
+
+
+
+
+<!--====== Jquery js ======-->
+<script src="\static\assets\js\vendor\jquery-1.12.4.min.js"></script>
+<script src="\static\assets\js\vendor\modernizr-3.7.1.min.js"></script>
+
+<!--====== Bootstrap js ======-->
+<script src="\static\assets\js\popper.min.js"></script>
+<script src="\static\assets\js\bootstrap.min.js"></script>
+
+<!--====== Slick js ======-->
+<script src="\static\assets\js\slick.min.js"></script>
+
+<!--====== Isotope js ======-->
+<script src="\static\assets\js\imagesloaded.pkgd.min.js"></script>
+<script src="\static\assets\js\isotope.pkgd.min.js"></script>
+
+<!--====== Counter Up js ======-->
+<script src="\static\assets\js\waypoints.min.js"></script>
+<script src="\static\assets\js\jquery.counterup.min.js"></script>
+
+<!--====== Circles js ======-->
+<script src="\static\assets\js\circles.min.js"></script>
+
+<!--====== Appear js ======-->
+<script src="\static\assets\js\jquery.appear.min.js"></script>
+
+<!--====== WOW js ======-->
+<script src="\static\assets\js\wow.min.js"></script>
+
+<!--====== Headroom js ======-->
+<script src="\static\assets\js\headroom.min.js"></script>
+
+<!--====== Jquery Nav js ======-->
+<script src="\static\assets\js\jquery.nav.js"></script>
+
+<!--====== Scroll It js ======-->
+<script src="\static\assets\js\scrollIt.min.js"></script>
+
+<!--====== Magnific Popup js ======-->
+<script src="\static\assets\js\jquery.magnific-popup.min.js"></script>
+
+<!--====== Main js ======-->
+<script src="\static\assets\js\main.js"></script>
+</body>
+
+</html>
